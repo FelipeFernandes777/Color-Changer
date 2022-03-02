@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4947479d;
+    height: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 12rem;
+}
+
+.quadrado{
+    background-color:white;
+    padding: 40px 20px;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 80px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
+    margin-top: 3rem;
+}
+
+.button button{
+    border-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+    margin-left: 20px;
+}
+
+.displayN{
+    display: none;
+}
